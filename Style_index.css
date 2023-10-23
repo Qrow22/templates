@@ -1,0 +1,153 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(rgb(1, 73, 70), rgb(175, 184, 177));
+    color: white;
+    
+}
+
+nav{
+    background-color: rgb(175, 184, 178);
+} 
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+li{
+    padding: 10px 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mkt{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border: px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.ger{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.pass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #acacac;
+}
+
+.setor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #b9b9b9;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(rgb(175, 184, 177), rgb(1, 73, 70));
+    color: white;
+}
+
+img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.icon{
+    background-color: white;
+    width: 1px;
+    height: 1px;
+}
+
+/* Manager.hmtl*/
+
+.manager{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    border: px solid black;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(102, 102, 252);
+    color: black;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.5px;
+}
+
+.btn:hover{
+    background-color: rgb(102, 102, 252);
+    color: white;
+    border: 2px rgb(102, 102, 252);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* register.html*/
